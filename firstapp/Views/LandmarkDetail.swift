@@ -1,7 +1,7 @@
 import SwiftUI
 
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView()
@@ -16,6 +16,8 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title)
+
+
                 HStack {
                     Text("Joshua Tree National Park")
                     Spacer()
@@ -42,5 +44,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    LandmarkDetail()
 }
